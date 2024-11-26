@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project_SE_IT</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="ICT12267การพัฒนาเว็บแอปพลิเคชันส่วนติดต่อกับผู้ใช้">
+        <meta name="author" content="นายกอบกิจ โกษาพันธุ์ และ นายสิงห์ ธีระศักดิ์">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-silver bg-silver">
+            <div class="container">
+                <a href="#" class="navbar-brand">SE-IT</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbar1" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">หน้าแรก</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">สินค้า</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="PRODUCT.html">สินค้าแนะนำ</a></li>
+                        </ul>
+                        <li class="nav-item"></li>
+                            <a href="about.html" class="nav-link">เกี่ยวกับเรา</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <a href="login.html" class="nav-link">เข้าสู่ระบบ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </nav>
+<!-- content -->
+        <section class="promotext"> <!--โปรโมชั่น-->
+            <div class="container_promo">
+                <p>จำหน่ายสินค้า IT มีคุณภาพแบบใหม่สั่งซื้อทางออนไลน์ พร้อมรับบริการจัดส่งฟรี&nbsp;</p>
+            </div>
+        </section>
+
+        <section class="preview"> <!--วิดีโอ โปรโมท-->
+            <div class="container_preview">
+                <iframe src="https://www.youtube.com/embed/eDqfg_LexCQ?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0"></iframe>
+            </div>
+        </section>
+          <!-- product -->
+            <div class="protext_container">
+                <h1 class="text-center">ผลิตภัณฑ์อุปกรณ์ไอที</h1>
+                <p class="text-center">เราคือผู้จัดจำหน่ายสินค้าไอที โดดเด่นเรื่องบริการที่ทันสมัย กับความหลากหลายของสินค้าจากแบรนด์ชั้นนำมากมาย ใส่ใจในรายละเอียด คุณภาพ บริการ โดยผู้บริโภคสามารถสั่งสินค้าออนไลน์กับเราทางเว็บไซต์ ซึ่งถือเป็นบริการที่เราตั้งใจและนำเสนอเพื่อให้ผู้บริโภคได้รับสินค้า และการบริการที่ประทับใจที่ดีที่สุดจากเรา</p>
+            </div>
+        <section id="Product"> <!-- สินค้า -->
+            <div class="container_product">
+                <h1>PRODUCT</h1>
+                <div id="Slider" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="https://images.samsung.com/is/image/samsung/p6pim/th/sm-f741bakathl/gallery/th-galaxy-zflip6-f741-sm-f741bakathl-thumb-542920755?$252_252_PNG$" class="d-block w-100" alt="galaxyflip6">
+                                    <div class="overlay">Samsung Galaxy Z Flip 6</div>
+                                </div>
+                                <div class="col-3">
+                                    <img src="https://images.samsung.com/is/image/samsung/p6pim/th/sm-a065fzkgthl/gallery/th-galaxy-a06-sm-a065-519512-sm-a065fzkgthl-thumb-543280471?$252_252_PNG$" class="d-block w-100" alt="samsunga06">
+                                    <div class="overlay">Galaxy A06</div>
+                                </div>
+                                <div class="col-3">
+                                    <img src="https://images.samsung.com/is/image/samsung/p6pim/th/sm-s721blbcthl/gallery/th-galaxy-s24-fe-s721-sm-s721blbcthl-thumb-543607469?$252_252_PNG$" class="d-block w-100" alt="sumsungs24">
+                                    <div class="overlay">Galaxy S24 FE</div>
+                                </div>
+                                <div class="col-3">
+                                    <img src="https://images.samsung.com/is/image/samsung/p6pim/th/sm-f956bakdthl/gallery/th-galaxy-z-fold6-f956-sm-f956bakdthl-thumb-542630496?$252_252_PNG$" class="d-block w-100" alt="sumsunggalaxyzfold6">
+                                    <div class="overlay">Galaxy Z Fold 6</div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="https://dlcdnwebimgs.asus.com/gain/F51F921B-C613-4095-9A0C-DFDF5E7E0908/w717/h525/w273" class="d-block w-100" alt="ROG 8 Pro">
+                                    <div class="overlay">Asus ROG 8 Pro</div>
+                                </div>
+                                <div class="col-3">
+                                    <img src="https://images.samsung.com/is/image/samsung/p6pim/th/sm-a065fzkgthl/gallery/th-galaxy-a06-sm-a065-519512-sm-a065fzkgthl-thumb-543280471?$252_252_PNG$" class="d-block w-100" alt="samsunga06">
+                                    <div class="overlay">Galaxy A06</div>
+                                </div>
+                                <div class="col-3">
+                                    <img src="https://images.samsung.com/is/image/samsung/p6pim/th/sm-s721blbcthl/gallery/th-galaxy-s24-fe-s721-sm-s721blbcthl-thumb-543607469?$252_252_PNG$" class="d-block w-100" alt="sumsungs24">
+                                    <div class="overlay">Galaxy S24 FE</div>
+                                </div>
+                                <div class="col-3">
+                                    <img src="https://images.samsung.com/is/image/samsung/p6pim/th/sm-f956bakdthl/gallery/th-galaxy-z-fold6-f956-sm-f956bakdthl-thumb-542630496?$252_252_PNG$" class="d-block w-100" alt="sumsunggalaxyzfold6">
+                                    <div class="overlay">Galaxy Z Fold 6</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#Slider" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#Slider" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="Service"> <!-- บริการ -->
+            <h1>Service</h1>
+            <div class="container_service">              
+                    <div class="services">
+                        <i class="fas fa-shuttle-van"></i>
+                            <h2>ช้อปครบ 500.- ส่งฟรีทั่วประเทศ</h2>
+                            <p>จัดส่งด้วยบริษัทขนส่งเอกชนชั้นนำ</p>    
+                    </div>
+                    <div class="services">
+                        <i class="far fa-clock"></i>
+                            <h2>ช้อปครบ 3,000.- ส่งฟรีภายใน 3 ชั่วโมง</h2>
+                            <p>เฉพาะกรุงเทพและปริมณฑล ในเขตพื้นที่กำหนด</p>    
+                    </div>
+                    <div class="services">
+                        <i class="fas fa-shopping-bag"></i>
+                            <h2>การรับประกันสินค้าแท้ 100%</h2>
+                            <p>สินค้าไอทีคุณภาพรับประกันของแท้</p>    
+                    </div>
+            </div>
+        </section>
+
+            <hr class="section-line">
+
+        <div class="about-container">
+            <h1>About Us</h1>
+            <div class="profiles">
+                <div class="profile">
+                    <img src="profile1.jpg" alt="Person 1" class="profile-image">
+                    <h2>นายกอบกิจ โกษาพันธุ์</h2>
+                    <p>Skill : Graphic Design, Digital Painting, Drawing, Concept Art, Character Design, UE5, HTML and CSS</p>
+                    <p>Interested : Graphic Designer, Web Programming, Cybersecurity, Illustrator, Character Designer and Streamer </p>
+                    <a href="https://www.instagram.com/kkksp_mty" target="_blank">
+                        <img src="instagram-icon.png" alt="Instagram" class="instagram-icon">
+                    </a>
+                </div>
+                <div class="profile">
+                    <img src="profile2.jpg" alt="Person 2" class="profile-image">
+                    <h2>นายสิงห์ ธีระศักดิ์</h2>
+                    <p>Skill : HTML, CSS, JAVA, Python, C, C++, PHP, ALGOL and SQL</p>
+                    <p>Interested : Full Stack Developer , Data Science</p>
+                    <a href="https://www.instagram.com/singhthiirasakdi" target="_blank">
+                        <img src="instagram-icon.png" alt="Instagram" class="instagram-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+<!-- footer -->
+            <footer class="footer">
+                <div class="footer_container">
+                  <div class="footer-links">
+                    <a href="about.html">About Us</a>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  <p>&copy; 2024 SE-IT. All rights reserved.</p>
+                  <p style="font-size: small;">ผู้จัดทำโดย นายกอบกิจ โกษาพันธุ์ และ นายสิงห์ ธีระศักดิ์</p>
+                </div>
+              </footer>
+    </body>
+</html>

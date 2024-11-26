@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+html{
+    scroll-behavior: smooth;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    background-color: #f0f2f5;
+    padding: 20px;
+    background-image: url(background.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.container{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(10, 9, 9, 0.1);
+}
+.container a{
+    text-decoration: none;
+    color: #121212;
+    font-size: 16px;
+    transition: color 0.3s;
+    display: flex;
+}
+.container a:hover {
+    color: #005bb5;
+}
+/* ******************************************************************** */
+.protext_container{
+    padding: 40px;
+}
+.container_preview {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+}
+iframe{
+    width: 80%; 
+    height: 400px; 
+    border-radius: 30px; /*ขอบโค้ง*/
+}
+.container_promo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.container_promo a{
+    text-decoration:none;
+    transition: color 0.3s;
+}
+.nav-link a:hover {
+    color: #005bb5;
+}
+/* ******************************************************************** */
+.protext_container {
+    margin-top: 20px;
+}
+.container_product {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.carousel-inner {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.carousel-inner img {
+    max-width: 300px; 
+    height: auto;  
+    margin: 0 auto;
+    display: block;
+}
+.overlay{
+    text-align: center;
+}
+/* ******************************************************************** */
+footer{
+    color: rgb(0, 0, 0); /* text color */
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 30px;
+}
+.footer_container {
+    max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+.footer-links {
+    margin-bottom: 10px;
+}
+.footer-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+.footer-links a:hover {
+    color: #005bb5;
+}
+.footer-bottom {    
+    padding-top: 10px;
+}
+/* ******************************************************************** */
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-container h1 {
+    margin-bottom: 40px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    transition: transform 0.3s;
+}
+
+.profile:hover {
+    transform: translateY(-5px);
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.about-container h2 {
+    margin: 10px 0;
+}
+
+.about-container p {
+    color: #555;
+}
+.instagram-icon {
+    width: 24px;
+    height: auto;
+    margin-top: 10px;
+}
+/* ******************************************************************** */
+.section-line{
+    margin: 5rem 0;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    opacity: .25;
+    padding: 20px;
+}
+/* ********************************************************************** */
+.container_service{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Service {
+    margin-top:100px;
+}
+.Service {
+    text-transform: uppercase;
+    font-size:45px;
+    margin-bottom: 40;
+    color:#000000;
+    padding:20px;
+}
+.container_service{
+    width:80%;
+    margin:0px auto;
+    display: flex;
+    justify-content:center;
+}
+.services {
+    text-align: center;
+    margin:20px;
+    background-color: #fff;
+    padding:30px 20px;
+    cursor: pointer;
+    border:1px solid #ddd;
+    transition: 0.4s ease;
+}
+.services:hover {
+    background-color: #f0f0f0;
+}
+.services i{
+    color: #14bb96;
+    font-size: 48px;
+}
+.services h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.services p{
+    font-size: 16px;
+    color:#666;
+    line-height: 1.4;
+}
