@@ -1,1 +1,1 @@
-SPU Project website for education
+SPU Project website for education basic html , css
