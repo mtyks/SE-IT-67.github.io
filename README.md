@@ -31,7 +31,7 @@ git clone https://github.com/mtyks/SE-IT-67.github.io.git
 cd SE-IT-67.github.io
 open index.html
 ```
-## Or open from this Website
+## Or open from this
 
 [Website](https://mtyks.github.io/SE-IT-67.github.io/)
 
