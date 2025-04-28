@@ -31,6 +31,11 @@ git clone https://github.com/mtyks/SE-IT-67.github.io.git
 cd SE-IT-67.github.io
 open index.html
 ```
+## Or open from this URL
+
+```bash
+https://mtyks.github.io/SE-IT-67.github.io/
+```
 
 ## Contributing
 Feel free to fork the repository, submit issues, and create pull requests to contribute to the development of this project.
